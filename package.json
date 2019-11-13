@@ -1,0 +1,23 @@
+{
+  "name": "backendportolio",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Adam Price",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mailgun-js": "^0.22.0",
+    "nodemon": "^1.19.4"
+  }
+}
